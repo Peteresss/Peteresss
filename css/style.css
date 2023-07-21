@@ -1,0 +1,82 @@
+
+/* ¸HERO SEKCE + NAVBAR */
+
+#hero {
+    background-image: url('./../image/pozadi.jpg');
+    background-size: cover;
+    min-height: 750px;    
+}
+
+.nadpis {
+    text-shadow: 5px 5px 5px gray;
+}
+
+.nadpis h1 {
+    font-size: 4rem;
+}
+
+form {
+    text-align: left;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 2px #000;
+}
+
+form input[type=submit] {
+    font-size: 1.3rem;
+    padding: 4px 20px;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 4px 4px 10px #787878;
+
+    background-color: #d43f3a;
+    color: #fff;    
+}
+
+.virtual {
+    background-color: #787878 !important;
+    outline: solid;
+}
+
+nav ul li {
+    color: #ddd;
+    margin-right: 10px;    
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+
+/* ¸HISTORIE */
+
+.font-1 {
+    font-family: 'Caprasimo', cursive;
+}
+
+.font-2 {
+    font-family: 'Martian Mono', monospace;
+}
+
+
+/* ¸GALERIE */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* MODAL */
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+.btn-close {
+    position:absolute;
+    right:-30px;
+    top:0;
+}
